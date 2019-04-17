@@ -1,0 +1,17 @@
+#app {
+    visibility: visible;
+
+    color: red;
+    .aaa {
+        color: blue;
+    }
+    .bbb {
+        float: left;
+
+        width: 100px;
+        height: 200px;
+
+        color: blue;
+        background-color: red;
+    }
+}
