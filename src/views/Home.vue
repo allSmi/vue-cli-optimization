@@ -9,14 +9,14 @@
 
 <script>
 // @ is an alias to /src
-import Vue from 'vue'
-import HelloWorld from '@/components/HelloWorld.vue'
-import { Button, Cell } from 'vant'
-Vue.use(Button).use(Cell)
+import Vue from 'vue';
+import HelloWorld from '@/components/HelloWorld.vue';
+import { Button, Cell } from 'vant';
+Vue.use(Button).use(Cell);
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
-}
+    name: 'home',
+    components: {
+        HelloWorld
+    }
+};
 </script>
