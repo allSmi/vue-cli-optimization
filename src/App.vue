@@ -4,9 +4,19 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <keep-alive exclude="about">
+      <router-view/>
+    </keep-alive>
   </div>
 </template>
+
+<script>
+export default {
+    mounted () {
+    }
+};
+</script>
+
 
 <style lang="scss">
 #app {
